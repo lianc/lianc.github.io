@@ -15,4 +15,9 @@ $(document).ready(function(){
 	//	$('.element').mouseout(function(){
 	//	$(this).css('background-color','#ffffff');
 	//})
+
+if (i < 50) {
+color = "yellow";
+
+}
 })
