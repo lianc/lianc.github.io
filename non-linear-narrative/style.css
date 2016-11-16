@@ -1,0 +1,30 @@
+a:link, a:visited {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #00ccff;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+a:hover, a:active {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #FFCCCC;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    width: 800px;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+
