@@ -22,10 +22,10 @@ $(document).ready(function(){
   
   //mouse interaction
   $('.element').mouseover(function(){
-    $(this).css('background-color','black');
+    $(this).css('background-color','white');
   });
   $('.element').mouseout(function(){
-    $(this).css('background-color','#ff3151');
+    $(this).css('background-color','#ffffff');
   });
 
 
@@ -55,15 +55,15 @@ $(document).ready(function(){
     }
     else if (rx < 25){
       //square is on the left, below the half
-      color = "purple";
+      color = "pink";
     }
     else if (rx < 75){
       //square is on the left, below the half
-      color = "green";
+      color = "orange";
     }
     else {
       //square is on the right, below the half
-      color = "blue";
+      color = "white";
     }
     console.log("rx: " + rx + " ry: " + ry);
     $("body").append( "<div class='element random' style='left:" + rx + "vw; top:" + ry + "vh; background-color:" + color + "; width:" + rw + "px; height:" + rh + "px;'></div>" );
