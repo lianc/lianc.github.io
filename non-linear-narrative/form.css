@@ -1,0 +1,21 @@
+input[type=text] {
+    border: 3px solid blue;
+    border-radius: 2px;
+}
+
+
+body {
+    background-color: #FFF;
+    font-family: "arial";
+    font-size: 12px;
+}
+
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "arial";
+    font-size: 20px;
+}

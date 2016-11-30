@@ -1,0 +1,33 @@
+html, body { height: 100%; }
+
+body {
+	display: flex;
+	align-items: left;
+}
+
+div {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
+	letter-spacing: -1px;
+	line-height: 56px;
+	display: inline;
+	margin: 0;
+	padding: 0 10px;
+	background-repeat: no-repeat;
+	background-position: center bottom 14px;
+	background-size: 100% 18px;
+	background-image: linear-gradient(
+		to right,
+		#d1e277,
+		orange,
+		pink
+	);
+	box-decoration-break: clone;
+	-webkit-box-decoration-break: clone;
+	-moz-background-inline-policy: each-box;
+}

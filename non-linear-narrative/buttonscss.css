@@ -1,0 +1,349 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,700);
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.button-1 {
+	-moz-box-shadow: 3px 4px 0px 0px #000000;
+	-webkit-box-shadow: 3px 4px 0px 0px #ccc;
+	box-shadow: 3px 4px 0px 0px #ccc;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #000), color-stop(1, #fff));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff',GradientType=0);
+	background-color:#cccccc;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #eb94c3;
+	display:inline-block;
+	cursor:pointer;
+	color:#2e2e2e;
+	font-family: 'Raleway', Helvetica;
+	font-size:14px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #9299de;
+}
+.button-1:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fff), color-stop(1, #000));
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff', endColorstr='#000',GradientType=0);
+	background-color:#00ccff;
+}
+.button-1:active {
+	position:relative;
+	top:1px;
+}
+
+.perspective {
+		perspective: 500px;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.button-2 {
+	display: block;
+	float: left;
+	clear: left;
+	width: 100px;
+	height: 75px;
+	background: #99ccff;
+  color: white;
+  margin-top: 30px;
+	transform-style: preserve-3d;
+	margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 24px;
+	line-height: 70px;
+  text-decoration: none;
+}
+
+.button-2:hover {
+	transform: rotateX(-25deg);
+	transform-origin: 100px 0;
+}
+
+.button-3 {
+	display: block;
+	text-decoration: none;
+	float: left;
+	clear: left;
+	text-shadow: 10px 10px 2px rgba(150, 30, 100, .3);
+	font-family: 'Raleway', sans-serif;
+	margin-left: 10px;
+	margin-top: 0px;
+	transition: all 1.5s;
+	font-size: 30px;
+}
+
+.button-3:hover {
+	text-shadow: 12px -10px 2px rgba(50, 100, 80, .3);
+  	border-radius: 25px;
+	color: orange;
+}
+
+.button-4 {
+	/*required changes*/
+	display: block;
+	text-decoration: none;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	text-align: center;
+	font-size: 24px;
+	line-height: 50px;
+	color: yellow;
+	background-color: rgba(10, 235, 180, 1);
+	width: 150px;
+	height: 50px;
+	margin-left: 20px;
+	margin-top: 200px;
+	border-radius: 20px;
+  border-style: dotted;
+}
+
+.button-4:hover {
+	border: 3px solid rgba(50, 45, 50, .5);
+	margin-left: 20px;
+	margin-top: 200px;
+  border-style: dotted;
+
+}
+
+.button-5 {
+	display: block;
+	text-decoration: none;
+	float: left;
+	clear: left;
+	font-family: Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-top: 30px;
+	transition: all .5s;
+	font-size: 20px;
+  background: red;
+  color: blue;
+  padding: 10px;
+}
+
+.button-5:hover {
+	color: white;
+	font-size: 20px;
+  font-size: 150%;
+}
+
+.button-6 {
+	display: block;
+	float: left;
+	clear: left;
+	width: 120px;
+	height: 60px;
+	background: #CCCCCC;
+	text-decoration: none;
+	margin-top: 30px;
+	margin-left: 10px;
+	transition: all 1s;
+}
+
+.button-6__words {
+	display: block;
+	width: 80px;
+	height: 40px;
+	background-color: #00ccff;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+
+	margin-top: 10px;
+	margin-left: 20px;
+
+	transition: all .5s;
+}
+
+.button-6:hover {
+	background-color: black;
+	transform: rotateX(90deg) rotateZ(60deg);
+}
+
+.button-6:hover .button-6__words {
+	transform: rotateX(-360deg);
+}
+
+.button-7 {
+	display: block;
+  font-family: 'Raleway', Helvetica, sans-serif;
+	text-decoration: none;
+	width: 100px;
+  height: 100px;
+	text-align: center;
+  line-height: 100px;
+	background-color: purple;
+  color: pink;
+	padding: 15px;
+	margin-top: 190px;
+	margin-left: 20px;
+	transition: all .5s;
+}
+
+.button-7:hover {
+  font-weight: 900;
+  letter-spacing: 1px;
+	border-radius: 50%;
+}
+
+.button-8 {
+	display: block;
+  font-family: 'Raleway', Helvetica, sans-serif;
+	text-decoration: none;
+	width: 100px;
+  height: 50px;
+	text-align: center;
+  line-height: 50px;
+  color: pink;
+	padding: 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.button-8:hover {
+  font-weight: 900;
+  letter-spacing: 1px;
+	border-radius: 20%;
+  border: 1px solid;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+.button-9 {
+	display: block;
+	text-decoration: none;
+	float: left;
+	clear: left;
+	font-family: Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-top: 32px;
+	transition: all .5s;
+	font-size: 20px;
+  background: yellow;
+  color: blue;
+  padding: 20px;
+}
+
+.button-9:hover {
+   background: #99ff99;
+  border: 10px dashed #eee;
+  height: 38px;
+  width: 100px;
+  margin: 30px 0 0 30px;
+  overflow: hidden;
+  display: block;
+  text-align: center;
+  line-height: 38px;
+}
+
+.button-10 {
+	display: block;
+	text-decoration: none;
+  width: 100px;
+	float: left;
+	clear: left;
+	font-family: 'Raleway', Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-top: 30px;
+	transition: all .5s;
+	font-size: 10px;
+  background: orange;
+  color: blue;
+  padding: 10px;
+  border: 50%;
+}
+
+.button-10:hover {
+	color: white;
+  text-transform: uppercase;
+}
+
+.button-11 {
+	display: block;
+	text-decoration: none;
+	float: left;
+	clear: left;
+	font-family: Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-top: 30px;
+	transition: all .5s;
+	font-size: 20px;
+  background: orange;
+  color: blue;
+  padding: 10px;
+}
+
+.button-11:hover {
+	color: white;
+	font-size: 20px;
+  font-size: 150%;
+}
+
+.button-12 {
+	display: block;
+	text-decoration: none;
+	float: left;
+	clear: left;
+	font-family: Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-top: 30px;
+	transition: all .5s;
+	font-size: 20px;
+  background: yellow;
+  color: blue;
+  padding: 10px;
+}
+
+.button-12:hover {
+	color: white;
+	font-size: 20px;
+  font-size: 150%;
+}
+
+.button-13 {
+	display: block;
+	text-decoration: none;
+	float: left;
+	clear: left;
+	font-family: Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-top: 30px;
+	transition: all .5s;
+	font-size: 20px;
+  background: #0099ff;
+  color: blue;
+  padding: 10px;
+}
+
+.button-13:hover {
+	color: white;
+	font-size: 20px;
+  font-size: 150%;
+}
+
+.button-14 {
+	display: block;
+	text-decoration: none;
+	float: left;
+	clear: left;
+	font-family: Helvetica, sans-serif;
+	margin-left: 10px;
+	margin-top: 30px;
+	transition: all .5s;
+	font-size: 20px;
+  background: blue;
+  color: purple;
+  padding: 10px;
+}
+
+.button-14:hover {
+	color: white;
+	font-size: 20px;
+  font-size: 150%;
+}

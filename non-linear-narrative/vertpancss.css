@@ -1,0 +1,12 @@
+.vertpan img {
+  margin-top: 0px;
+  -webkit-transition: margin .5s ease;
+     -moz-transition: margin .5s ease;
+       -o-transition: margin .5s ease;
+      -ms-transition: margin .5s ease;
+          transition: margin .5s ease;
+}
+
+.vertpan img:hover {
+  margin-top: -40px;
+}

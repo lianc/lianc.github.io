@@ -1,0 +1,32 @@
+#card {
+   width:250px;
+   height:250px;
+   position:relative;
+   -webkit-transform-style: preserve-3d;
+   -webkit-transform-origin: 100% 75px;
+   -webkit-transition: all 0.7s ease;
+   transform-style: preserve-3d;
+   transform-origin: 100% 75px;
+   transition: all 0.7s ease;
+         }
+#frame:hover #card {
+   -webkit-transform: rotateX(-180deg);
+   transform: rotateX(-180deg);
+                               }
+#front_pos, #back_pos {
+   width:550px;
+   height:450px;
+   position:absolute;
+   left:0;
+   -webkit-backface-visibility:hidden;
+   backface-visibility:hidden;
+                                   }
+#back_pos {
+   position:absolute;
+   bottom:170px;
+   font-size:30px;
+   color:#fff;
+   -webkit-transform: rotateX(180deg);
+   transform: rotateX(180deg);
+   text-align:center;
+                }

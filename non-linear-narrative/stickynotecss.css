@@ -1,0 +1,41 @@
+body {
+  overflow-x: hidden;
+  width: 100%;
+  font-family: "courier";
+}
+
+main {
+
+}
+
+section {
+  position: relative;
+  min-height: 30vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.start section:nth-of-type(even) {
+  background: darkgrey;
+}
+
+.start section:nth-of-type(odd) {
+  background: lightgrey;
+}
+
+.box {
+  position: fixed;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 30vw;
+  height: 40vh;
+}
+
+section, .box {
+  padding: 2em 1em;
+}
+
+section p, .box p {
+  opacity: .6;
+}
