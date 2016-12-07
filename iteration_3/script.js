@@ -5,12 +5,12 @@ $(document).ready(function(){
   ----------------------------------------------- */
 
 
-  $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=c5176df42ca450e1b2e3e4661429c05d",function(result){
-    var windSpeed = result.wind.speed;
-    console.log('wind speed: '+ windSpeed + "meter/sec");
-  drawGridObjects(windSpeed);
-  });
-
+  // $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=94040,us&appid=c5176df42ca450e1b2e3e4661429c05d",function(result){
+  //   var windSpeed = result.wind.speed;
+  //   console.log('wind speed: '+ windSpeed + "meter/sec");
+  // drawGridObjects(windSpeed);
+  // });
+  drawGridObjects(5);
 
   setInterval(function(){
     rotateGridObjects();
