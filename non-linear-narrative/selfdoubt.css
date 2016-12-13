@@ -1,0 +1,27 @@
+/* unvisited link */
+a:link {
+    color: orange;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+    font-size: 200%;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+    font-size: 200%;
+}
