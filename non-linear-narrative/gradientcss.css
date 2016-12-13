@@ -23,8 +23,8 @@ h1 {
 	background-size: 100% 18px;
 	background-image: linear-gradient(
 		to right,
-		#d1e277,
-		orange,
+		blue,
+		yellow,
 		pink
 	);
 	box-decoration-break: clone;
